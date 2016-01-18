@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B19AFA1680BC4C0D744678 /* libPods-RogoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC066E83903229C35247D21 /* libPods-RogoAppTests.a */; };
 		5DFC07EA1C4CD5B300EC3FE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC07E91C4CD5B300EC3FE6 /* main.m */; };
 		5DFC07ED1C4CD5B300EC3FE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC07EC1C4CD5B300EC3FE6 /* AppDelegate.m */; };
 		5DFC07F01C4CD5B300EC3FE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC07EF1C4CD5B300EC3FE6 /* ViewController.m */; };
 		5DFC07F31C4CD5B300EC3FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC07F11C4CD5B300EC3FE6 /* Main.storyboard */; };
 		5DFC07F51C4CD5B300EC3FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC07F41C4CD5B300EC3FE6 /* Assets.xcassets */; };
 		5DFC07F81C4CD5B300EC3FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC07F61C4CD5B300EC3FE6 /* LaunchScreen.storyboard */; };
+		5DFC08061C4CDF5B00EC3FE6 /* RogoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC08051C4CDF5B00EC3FE6 /* RogoAppTests.m */; };
+		5DFC080F1C4CE23000EC3FE6 /* ElementFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC080E1C4CE23000EC3FE6 /* ElementFormatter.m */; };
+		5DFC08111C4CE26D00EC3FE6 /* ElementFormatterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC08101C4CE26D00EC3FE6 /* ElementFormatterSpec.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5DFC08081C4CDF5B00EC3FE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DFC07DD1C4CD5B300EC3FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DFC07E41C4CD5B300EC3FE6;
+			remoteInfo = RogoAppTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4350B02C58B4352A004E763E /* Pods-RogoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RogoAppTests/Pods-RogoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DFC07E51C4CD5B300EC3FE6 /* RogoAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogoAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFC07E91C4CD5B300EC3FE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DFC07EB1C4CD5B300EC3FE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,14 @@
 		5DFC07F41C4CD5B300EC3FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DFC07F71C4CD5B300EC3FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DFC07F91C4CD5B300EC3FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFC08031C4CDF5B00EC3FE6 /* RogoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RogoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFC08051C4CDF5B00EC3FE6 /* RogoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RogoAppTests.m; sourceTree = "<group>"; };
+		5DFC08071C4CDF5B00EC3FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFC080D1C4CE23000EC3FE6 /* ElementFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementFormatter.h; sourceTree = "<group>"; };
+		5DFC080E1C4CE23000EC3FE6 /* ElementFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatter.m; sourceTree = "<group>"; };
+		5DFC08101C4CE26D00EC3FE6 /* ElementFormatterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatterSpec.m; sourceTree = "<group>"; };
+		9BC066E83903229C35247D21 /* libPods-RogoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RogoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73CBF30FB67DF3271FAC671 /* Pods-RogoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RogoAppTests/Pods-RogoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5DFC08001C4CDF5B00EC3FE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B19AFA1680BC4C0D744678 /* libPods-RogoAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,7 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				5DFC07E71C4CD5B300EC3FE6 /* RogoAppTest */,
+				5DFC08041C4CDF5B00EC3FE6 /* RogoAppTests */,
 				5DFC07E61C4CD5B300EC3FE6 /* Products */,
+				D8989C8734AFFCA4F6C45605 /* Pods */,
+				F0FA2BABD3015434FF9FB1CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				5DFC07E51C4CD5B300EC3FE6 /* RogoAppTest.app */,
+				5DFC08031C4CDF5B00EC3FE6 /* RogoAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +97,8 @@
 				5DFC07EC1C4CD5B300EC3FE6 /* AppDelegate.m */,
 				5DFC07EE1C4CD5B300EC3FE6 /* ViewController.h */,
 				5DFC07EF1C4CD5B300EC3FE6 /* ViewController.m */,
+				5DFC080D1C4CE23000EC3FE6 /* ElementFormatter.h */,
+				5DFC080E1C4CE23000EC3FE6 /* ElementFormatter.m */,
 				5DFC07F11C4CD5B300EC3FE6 /* Main.storyboard */,
 				5DFC07F41C4CD5B300EC3FE6 /* Assets.xcassets */,
 				5DFC07F61C4CD5B300EC3FE6 /* LaunchScreen.storyboard */,
@@ -77,6 +114,33 @@
 				5DFC07E91C4CD5B300EC3FE6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DFC08041C4CDF5B00EC3FE6 /* RogoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DFC08051C4CDF5B00EC3FE6 /* RogoAppTests.m */,
+				5DFC08071C4CDF5B00EC3FE6 /* Info.plist */,
+				5DFC08101C4CE26D00EC3FE6 /* ElementFormatterSpec.m */,
+			);
+			path = RogoAppTests;
+			sourceTree = "<group>";
+		};
+		D8989C8734AFFCA4F6C45605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4350B02C58B4352A004E763E /* Pods-RogoAppTests.debug.xcconfig */,
+				F73CBF30FB67DF3271FAC671 /* Pods-RogoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0FA2BABD3015434FF9FB1CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC066E83903229C35247D21 /* libPods-RogoAppTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +163,27 @@
 			productReference = 5DFC07E51C4CD5B300EC3FE6 /* RogoAppTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5DFC08021C4CDF5B00EC3FE6 /* RogoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFC080C1C4CDF5B00EC3FE6 /* Build configuration list for PBXNativeTarget "RogoAppTests" */;
+			buildPhases = (
+				DAABD61657976042D1A6C0BA /* Check Pods Manifest.lock */,
+				5DFC07FF1C4CDF5B00EC3FE6 /* Sources */,
+				5DFC08001C4CDF5B00EC3FE6 /* Frameworks */,
+				5DFC08011C4CDF5B00EC3FE6 /* Resources */,
+				849896061D7EA9A9E21C8545 /* Embed Pods Frameworks */,
+				3DD426600D69EE0C98F9610B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFC08091C4CDF5B00EC3FE6 /* PBXTargetDependency */,
+			);
+			name = RogoAppTests;
+			productName = RogoAppTests;
+			productReference = 5DFC08031C4CDF5B00EC3FE6 /* RogoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +195,10 @@
 				TargetAttributes = {
 					5DFC07E41C4CD5B300EC3FE6 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					5DFC08021C4CDF5B00EC3FE6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5DFC07E41C4CD5B300EC3FE6;
 					};
 				};
 			};
@@ -127,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				5DFC07E41C4CD5B300EC3FE6 /* RogoAppTest */,
+				5DFC08021C4CDF5B00EC3FE6 /* RogoAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +232,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5DFC08011C4CDF5B00EC3FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DD426600D69EE0C98F9610B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogoAppTests/Pods-RogoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849896061D7EA9A9E21C8545 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogoAppTests/Pods-RogoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAABD61657976042D1A6C0BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DFC07E11C4CD5B300EC3FE6 /* Sources */ = {
@@ -152,10 +297,28 @@
 				5DFC07F01C4CD5B300EC3FE6 /* ViewController.m in Sources */,
 				5DFC07ED1C4CD5B300EC3FE6 /* AppDelegate.m in Sources */,
 				5DFC07EA1C4CD5B300EC3FE6 /* main.m in Sources */,
+				5DFC080F1C4CE23000EC3FE6 /* ElementFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFC07FF1C4CDF5B00EC3FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFC08111C4CE26D00EC3FE6 /* ElementFormatterSpec.m in Sources */,
+				5DFC08061C4CDF5B00EC3FE6 /* RogoAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DFC08091C4CDF5B00EC3FE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DFC07E41C4CD5B300EC3FE6 /* RogoAppTest */;
+			targetProxy = 5DFC08081C4CDF5B00EC3FE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5DFC07F11C4CD5B300EC3FE6 /* Main.storyboard */ = {
@@ -261,8 +424,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/pocketsphinx/bin/x86_64/include,
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/sphinxbase/bin/x86_64/include,
+				);
 				INFOPLIST_FILE = RogoAppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/sphinxbase/bin/x86_64/lib,
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/pocketsphinx/bin/x86_64/lib,
+				);
+				OTHER_LDFLAGS = "-lsphinxbase";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fpt.tut.RogoAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,10 +444,45 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/pocketsphinx/bin/x86_64/include,
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/sphinxbase/bin/x86_64/include,
+				);
 				INFOPLIST_FILE = RogoAppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/sphinxbase/bin/x86_64/lib,
+					/Users/trungnd/Working/iOS/Libs/pocketsphinx/pocketsphinx/bin/x86_64/lib,
+				);
+				OTHER_LDFLAGS = "-lsphinxbase";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fpt.tut.RogoAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DFC080A1C4CDF5B00EC3FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4350B02C58B4352A004E763E /* Pods-RogoAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RogoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpt.tut.RogoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RogoAppTest.app/RogoAppTest";
+			};
+			name = Debug;
+		};
+		5DFC080B1C4CDF5B00EC3FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73CBF30FB67DF3271FAC671 /* Pods-RogoAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RogoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpt.tut.RogoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RogoAppTest.app/RogoAppTest";
 			};
 			name = Release;
 		};
@@ -298,6 +505,16 @@
 				5DFC07FE1C4CD5B300EC3FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFC080C1C4CDF5B00EC3FE6 /* Build configuration list for PBXNativeTarget "RogoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFC080A1C4CDF5B00EC3FE6 /* Debug */,
+				5DFC080B1C4CDF5B00EC3FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

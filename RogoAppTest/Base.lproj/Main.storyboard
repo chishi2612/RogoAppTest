@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="WB1-oi-EpP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44F-h2-W46" userLabel="Bottom">
+                                <rect key="frame" x="144" y="131" width="271" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LDY-X5-S4m"/>
+                                    <constraint firstAttribute="width" constant="200" id="ZOs-9K-7ko"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="show elements">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTs-Nc-h3i" userLabel="Top">
+                                <rect key="frame" x="144" y="59" width="271" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0YZ-1e-yc1"/>
+                                    <constraint firstAttribute="width" constant="200" id="XbC-cS-OUg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="say hello">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BTs-Nc-h3i" secondAttribute="trailing" constant="165" id="CdZ-dB-cdZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="44F-h2-W46" secondAttribute="trailing" constant="165" id="EUC-Vm-a39"/>
+                            <constraint firstItem="44F-h2-W46" firstAttribute="leading" secondItem="WB1-oi-EpP" secondAttribute="leadingMargin" constant="124" id="Mg0-t2-8SI"/>
+                            <constraint firstItem="44F-h2-W46" firstAttribute="top" secondItem="BTs-Nc-h3i" secondAttribute="bottom" constant="38" id="a6z-tI-vNN"/>
+                            <constraint firstItem="BTs-Nc-h3i" firstAttribute="leading" secondItem="WB1-oi-EpP" secondAttribute="leadingMargin" constant="124" id="iD3-6N-ELq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="44F-h2-W46" secondAttribute="bottom" constant="439" id="tft-KV-MHP"/>
+                            <constraint firstItem="BTs-Nc-h3i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="yjT-Tp-PhJ"/>
+                            <constraint firstItem="44F-h2-W46" firstAttribute="top" secondItem="BTs-Nc-h3i" secondAttribute="bottom" constant="38" id="zeQ-Af-lPH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="288" y="290"/>
         </scene>
     </scenes>
 </document>

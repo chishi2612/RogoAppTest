@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <pocketsphinx/pocketsphinx.h>
+//#import <sphinxbase/sphinxbase_export.h>
 
 @interface ViewController : UIViewController
 
